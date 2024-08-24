@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+    background-color: #202020;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    user-select: none;
+    z-index: 10000;
+
+    user-select: none;
+}
+
+.logo {
+    margin-left: 100px;
+} 
+
+nav ul a {
+    color: #8B8B8B;
+    position: relative;
+    margin-right: 50px;
+    text-shadow: none;
+
+    transition: all .3s;
+}
+
+header nav ul a::after {
+    content: "";
+    position: absolute;
+    background-color: #F0F0F0;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: .3s;
+}
+
+header nav ul a.active {
+    color: #F0F0F0;
+}
+
+header nav ul a:hover {
+    color: #F0F0F0;
+}
+
+header nav ul a:hover::after {
+    width: 100%;
+}
+
+.margin-left {
+    margin-right: 120px;
+}
+
+

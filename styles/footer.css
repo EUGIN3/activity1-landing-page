@@ -1,0 +1,80 @@
+footer {
+    background-color: #F0F0F0;
+    height: 200px;
+
+    padding: 140px 100px;
+}
+
+.footer-top {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    user-select: none;
+}
+
+.footer-top a {
+    color: #202020;
+    font-weight: 600;
+}
+
+hr {
+    border-bottom: 2px solid #a7a7a78b;
+    width: 85%;
+}
+
+.icons-main {
+    margin-top: 40px;
+}
+
+.logo-footer {
+    margin-left: 120px;
+}
+
+footer a i {
+    color: #202020;
+}
+
+footer .icons {
+    border: 2px solid #202020;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: background-color .3s;
+}
+
+footer .icons:hover {
+    background-color: #202020;
+}
+
+footer .icons:active {
+    scale: .97;
+}
+
+footer .icons i {
+    transition: color .3s;
+}
+
+footer .icons:hover i {
+    color: #F0F0F0;
+}
+
+.icons-main p {
+    color: #202020;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.icons-main p.dev-name {
+    margin-top: 0;
+}
+
+.icons-main p span a {
+    font-weight: 600;
+    color: #202020;
+}
+
+.icons-main p span a:hover {
+    color: #3a3c43;
+}
+
